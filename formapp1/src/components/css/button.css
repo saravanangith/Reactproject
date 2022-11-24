@@ -1,0 +1,50 @@
+#btn {
+  outline: none;
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#inside {
+  text-align: center;
+}
+#boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box1 {
+  height: 200px;
+  width: 200px;
+  /* border: 2px solid purple; */
+  /* background-color: blue; */
+  margin: 5px;
+  cursor: pointer;
+}
+#box2 {
+  height: 200px;
+  width: 200px;
+  overflow: auto;
+  cursor: pointer;
+  /* border: 2px solid purple; */
+  /* background-color: yellow; */
+  /* margin: 1px; */
+}
+
+#purple {
+  border: 2px solid blue;
+}
+
+button {
+  background: transparent;
+
+  border: 0;
+}
